@@ -1,0 +1,186 @@
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+/* Icons
+<i class="fa-solid fa-circle-check"></i>
+<i class="fa-solid fa-bullseye"></i>
+<i class="fa-solid fa-heart"></i>
+*/
+body {
+  font-family: 'Montserrat';
+}
+
+#title {
+  background-color: #ff4c68;
+  overflow: hidden;
+}
+
+/* Navigation Bar */
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 2.5em;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 200;
+  font-family: "Montserrat";
+}
+
+.nav-item {
+  padding: 0 20px;
+}
+
+/* Buttons */
+.btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+.col-lg-6 {
+  margin-bottom: 60px;
+}
+
+h1 {
+  color: white;
+  font-family: 'Montserrat';
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 2.75rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+#features {
+  /* align-items: center; */
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.cards1 {
+  text-align: center;
+  padding: 5%;
+}
+
+.para1 {
+  font-family: 'Montserrat';
+  font-weight: 200;
+  color: #8f8f8f;
+}
+
+.features {
+  font-size: 1.5rem;
+}
+
+/* Icons */
+.icons {
+  color: #ef8172;
+  /* font-size:3.25em; */
+  line-height: 1.75;
+}
+
+.icons:hover {
+  color: #ff4c68;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+}
+
+.press-logo {
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.card {
+  width: 26rem;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media(max-width: 1265px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+#cta {
+  background-color: #ff4c68;
+  height: 400px;
+  padding: 100px 200px;
+  text-align: center;
+}
+
+.cta-tagline {
+  font-family: "Montserrat";
+  color: #fff;
+  font-size: 3rem;
+}
+
+#footer {
+  background-color: #fff;
+  height: 200px;
+  text-align: center;
+  padding: 100px 200px;
+}
+
+.socials{
+  margin:0 20px 20px;
+}
